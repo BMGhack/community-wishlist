@@ -1,3 +1,9 @@
+# Community Wishlist
+
+Have something to give? Find a good home for it. 
+Need something? Ask for it from your community.
+
+Community Wishlist helps match those with items to share with those who need those items. 
 
 ## Requirements
 
@@ -16,3 +22,8 @@ Alternatively, run a command inside the virtualenv with
 To add new dependencies to the Pipfile, use:
 
     pipenv install module_name
+
+To apply migrations, use:
+
+    python manage.py makemigrations
+    python manage.py migrate
